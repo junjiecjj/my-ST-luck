@@ -1,12 +1,12 @@
 /* See LICENSE file for copyright and license details. */
 
+
 /*
  * appearance
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-
-//static char *font = "JetBrains Mono:pixelsize=12:antialias=true:autohint=true";
+// static char *font = "JetBrains Mono:pixelsize=12:antialias=true:autohint=true";
 //static char *font = "Fira Code:pixelsize=12:antialias=true:autohint=true";
 //static char *font = "FiraCode Nerd Font:pixelsize=12:antialias=true:autohint=true";
 //static char *font = "FiraCode Nerd Font Mono:pixelsize=12:antialias=true:autohint=true";
@@ -22,11 +22,19 @@
 //static char *font = "InconsolataLGC Nerd Font Medium:pixelsize=12:antialias=true:autohint=true";
 //static char *font = "YaHei Consolas Hybrid:pixelsize=14:antialias=true:autohint=true";
 //static char *font = "YaHei Consolas Hybrid YaHei Consolas Hybrid Regular:pixelsize=14:antialias=true:autohint=true";
-//static char *font = "Cascadia Code:pixelsize=12:antialias=true:autohint=true";
-//static char *font = "CaskaydiaCove Nerd Font Mono:style=Regular:pixelsize=12:antialias=true:autohint=true";
-static char *font = "CaskaydiaCove Nerd Font:style=Regular:pixelsize=18:antialias=true:autohint=true";
-// static char *font = "Cascadia Code SemiLight:pixelsize=12:antialias=true:autohint=true";
-// static char *font = "Cascadia Code ExtraLight:pixelsize=12:antialias=true:autohint=true";
+
+// static char *font = "Cascadia Code:pixelsize=20:antialias=true:autohint=true";
+// static char *font = "Cascadia Code SemiLight:pixelsize=20:antialias=true:autohint=true";
+// static char *font = "Cascadia Code ExtraLight:pixelsize=20:antialias=true:autohint=true";
+
+// static char *font = "CaskaydiaCove Nerd Font:style=Regular:pixelsize=20:antialias=true:autohint=true";
+// static char *font = "CaskaydiaCove Nerd Font:style=SemiLight:pixelsize=20:antialias=true:autohint=true";
+// static char *font = "CaskaydiaCove Nerd Font:style=Light:pixelsize=20:antialias=true:autohint=true";
+// static char *font = "CaskaydiaCove Nerd Font:style=ExtraLight:pixelsize=20:antialias=true:autohint=true";
+// static char *font = "CaskaydiaCove Nerd Font Mono:style=Regular:pixelsize=20:antialias=true:autohint=true";
+static char *font = "CaskaydiaCove Nerd Font Mono:style=SemiLight:pixelsize=16:antialias=true:autohint=true";
+// static char *font = "CaskaydiaCove Nerd Font Mono:style=Light:pixelsize=20:antialias=true:autohint=true";
+// static char *font = "CaskaydiaCove Nerd Font Mono:style=ExtraLight:pixelsize=20:antialias=true:autohint=true";
 
 
 //========================================================================================================
@@ -364,13 +372,17 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },      /* alt+v 粘贴*/
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ MODKEY,               XK_s,           changealpha,    {.f = -0.05} },   /* alt+s 增加透明度*/
+	{ MODKEY,               XK_e,           changealpha,    {.f = -0.05} },   /* alt+s 增加透明度*/
 	{ MODKEY,               XK_a,           changealpha,    {.f = +0.05} },   /* alt+a 较小透明度*/
 	{ MODKEY,               XK_l,           externalpipe,   {.v = openurlcmd } },    /* alt+l 打开url*/
 	{ MODKEY,               XK_y,           externalpipe,   {.v = copyurlcmd } },    /* alt+y 复制url*/
 	{ MODKEY,               XK_o,           externalpipe,   {.v = copyoutput } },    /* alt+o 复制输出*/
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = 20} },  /*shift+pageup上翻20行*/
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = 20} },
+	{ Mod1Mask,             XK_k,           kscrollup,      {.i = 25} },  /*shift+k上翻20行*/
+	{ Mod1Mask,             XK_j,           kscrolldown,    {.i = 25} },
+	{ Mod1Mask,             XK_u,           kscrollup,      {.i = 30} },  /*shift+u上翻20行*/
+	{ Mod1Mask,             XK_d,           kscrolldown,    {.i = 30} },
 };
 
 /*
