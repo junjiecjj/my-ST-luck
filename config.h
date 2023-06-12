@@ -32,7 +32,8 @@
 // static char *font = "CaskaydiaCove Nerd Font:style=Light:pixelsize=20:antialias=true:autohint=true";
 // static char *font = "CaskaydiaCove Nerd Font:style=ExtraLight:pixelsize=20:antialias=true:autohint=true";
 // static char *font = "CaskaydiaCove Nerd Font Mono:style=Regular:pixelsize=20:antialias=true:autohint=true";
-static char *font = "CaskaydiaCove Nerd Font Mono:style=SemiLight:pixelsize=16:antialias=true:autohint=true";
+//   static char *font = "CaskaydiaCove Nerd Font Mono:style=SemiLight:pixelsize=16:antialias=true:autohint=true";
+static char *font = "IntelOne Mono:style=Light:pixelsize=22:antialias=true:autohint=true";
 // static char *font = "CaskaydiaCove Nerd Font Mono:style=Light:pixelsize=20:antialias=true:autohint=true";
 // static char *font = "CaskaydiaCove Nerd Font Mono:style=ExtraLight:pixelsize=20:antialias=true:autohint=true";
 
@@ -52,7 +53,6 @@ static char *font = "CaskaydiaCove Nerd Font Mono:style=SemiLight:pixelsize=16:a
 
 
 
-
 //static char *font2[] = { "Monaco:pixelsize=11:antialias=true:autohint=true" };
 //static char *font2[] = { "InconsolataGo Nerd Font:pixelsize=11:antialias=true:autohint=true" };
 //static char *font2[] = { "InconsolataGo Nerd Font Mono:pixelsize=11:antialias=true:autohint=true" };
@@ -60,7 +60,8 @@ static char *font = "CaskaydiaCove Nerd Font Mono:style=SemiLight:pixelsize=16:a
 //static char *font2[] = { "YaHei Consolas Hybrid:pixelsize=11:antialias=true:autohint=true" };
 //static char *font2[] = { "YaHei Consolas Hybrid YaHei Consolas Hybrid Regular:pixelsize=11:antialias=true:autohint=true" };
 //static char *font2[] = { "Cascadia Code:pixelsize=11:antialias=true:autohint=true" };
-static char *font2[] = { "CaskaydiaCove Nerd Font:style=Regular:pixelsize=18:antialias=true:autohint=true" };
+//  static char *font2[] = { "CaskaydiaCove Nerd Font:style=Regular:pixelsize=18:antialias=true:autohint=true" };
+static char *font2[] = {"IntelOne Mono:style=Light:pixelsize=22:antialias=true:autohint=true"};
 // static char *font2[] = { "CaskaydiaCove Nerd Font Mono:style=Regular:pixelsize=12:antialias=true:autohint=true" };
 // static char *font2[] = { "Cascadia Code SemiLight:pixelsize=12:antialias=true:autohint=true" };
 // static char *font2[] = { "Cascadia CodeExtraLight:pixelsize=12:antialias=true:autohint=true" };
